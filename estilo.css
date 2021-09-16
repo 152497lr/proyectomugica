@@ -1,0 +1,106 @@
+body {
+    background-color: #FCFFA6;
+    margin: 0%;
+}
+main{
+    margin: 10%;
+    border: 10%;
+}
+header {
+    background-color: #C1FFD7;
+    margin: 0%;
+    border: 0%;}
+footer {
+    background-color:#B5DEFF;
+    margin: 0%;
+    border: 0%;}
+
+aside{
+float:right;
+background-color:#CAB8FF;
+overflow: hidden;
+margin-left: 70%;
+padding: 2%;
+color: white;
+}
+
+.href {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 22px;
+    color: #000000;}
+
+.redes { 
+    width: 70px; 
+    height: 70px; 
+    box-align: center;
+    background: white;
+    color:white; 
+    padding: 15px;}
+
+.titulo2 {
+    color: #1CC5DC;
+}
+
+.titulo3 {
+    color: #890596;
+}
+
+h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 22px;
+    color: #890596;
+}
+
+h2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 22px;
+    color: black;
+}
+
+h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+h4 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 22px;
+    color: #000000;}
+.subtitulo {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #150050;}
+p {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #3F0071;
+}
+
+.href {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #3F0071;
+}
+
+
+.li {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #1CC5DC;
+}
+.incisouno {
+   background-color: #B5DEFF;
+}
+.incisodos {
+    background-color: #CAB8FF;
+ }
+ .incisotres {
+    background-color: #C1FFD7;
+ }
+ .incisocuatro {
+    background-color: #FCFFA6;
+ }
+
+
+ 
+ 
