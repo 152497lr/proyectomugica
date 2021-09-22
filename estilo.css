@@ -79,28 +79,72 @@ p {
 .href {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 15px;
-    color: #3F0071;
+    color: black;
 }
-
 
 .li {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 12px;
     color: #1CC5DC;
 }
+
 .incisouno {
    background-color: #B5DEFF;
-}
+   clear:both;
+   padding: 100;
+   float: left;}
+
 .incisodos {
     background-color: #CAB8FF;
+    clear:both
  }
  .incisotres {
     background-color: #C1FFD7;
+    clear:both
  }
  .incisocuatro {
     background-color: #FCFFA6;
+    clear:both
  }
 
-
+ .galeria {
+    font-family: Verdana, Tahoma, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color: #CAB8FF  ; 
+    font-weight: 900 ; 
+    font-size: 25px;
+}
  
+.nuestrahistoria {
+    font-family: Verdana, Tahoma, sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:  #CAB8FF ; 
+    font-weight: 900 ; 
+    font-size: 25px;
+}
+
+.galeria { 
+    width: 480px; 
+    padding: 100;
+    background: white ;}
+
+.instagram { 
+    width: 100px; 
+    padding: 100;}
+    
+.facebook { 
+    width: 100px; 
+    padding: 100;}
+    
+.gmail { 
+    width: 100px; 
+    padding: 100;}
+    
+.whatsapp { 
+    width: 100px; 
+    padding: 100;}
+    
+
+
+
  
