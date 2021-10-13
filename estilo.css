@@ -1,149 +1,254 @@
-body {
-    background-color: #FCFFA6;
-    margin: 0%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #FBF4E9;
+    margin: 0%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
 main{
     margin: 10%;
     border: 10%;
 }
+
+.contenedor_nav {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+width: 120px;
+}
+
+ul {
+    list-style: none;
+}
+
 header {
     background-color: #C1FFD7;
+    opacity: 92%;
     margin: 0%;
-    border: 0%;}
-footer {
-    background-color:#B5DEFF;
-    margin: 0%;
-    border: 0%;}
+    border: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 10%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    }
 
-aside{
-float:right;
-background-color:#CAB8FF;
-overflow: hidden;
-margin-left: 70%;
-padding: 2%;
-color: white;
+.navegador {
+    min-width: 50%;
+}
+.navegador_lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-.href {
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 22px;
-    color: #000000;}
-
-.redes { 
-    width: 70px; 
-    height: 70px; 
-    box-align: center;
-    background: white;
-    color:white; 
-    padding: 15px;}
-
-.titulo2 {
-    color: #1CC5DC;
-}
-
-.titulo3 {
-    color: #890596;
-}
-
-h1{
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 22px;
-    color: #890596;
-}
-
-h2 {
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 22px;
-    color: black;
-}
-
-h3 {
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 22px;
-    color: #000000;
-}
-h4 {
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 22px;
-    color: #000000;}
-.subtitulo {
-    font-family: Verdana, Tahoma, sans-serif;
+.nav_enlace {
+    color:black;
+    text-decoration: none;
     font-size: 20px;
-    color: #150050;}
-p {
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 15px;
-    color: #3F0071;
+    padding: 10px;
+}
+/*SECCIÓN 1*/
+
+.presentación {
+    margin: 30px;;
+    display: flex;
+    justify-content: column;
+    gap: 10px;
+}
+.hacemos{
+    font-size: 28px;
+    color:#6ECB63;
+    margin: 32px;
+    text-shadow:  0 2px 3px rgba(0, 0, 0, 0.3);
+}
+.somos {
+    position: center;
+    font-size: 25;
+    margin: 32px;
+    color:#B1E693;
 }
 
-.href {
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 15px;
+.video {
+    float: left;
+    clear:both;
+    width: 480px; 
+    height: 480px;
+    margin-top: 10px;
+    margin: 25px;
+}
+
+.botonayuda {
+    display: inline-block;
+    background-color:#6ECB63;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 900;
+    margin: 20px;
+    }
+
+/*SECCIÓN 2*/
+.historia {
+    background-color:#B1E693;
+    margin-top: 20 px;
+    margin-bottom: 20 px;
+    display: inline-block;
+    justify-content: column;
+    clear:both;
+    }
+
+.foto2014 {
+    margin: 20px;
+    float:right;
+    clear: both;
+}
+.somos2 {
+    position: center;
+    font-size: 25;
+    margin: 32px;
+    color:white;
+    text-shadow:  0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.brevehistoria {
+    position: center;
+    font-size: 25;
+    margin: 32px;
+    color:black; 
+}
+/*SECCIÓN 3*/
+.nuestros_proyectos {
+    padding: 64px 32px;
+}   
+.titulo_proyectos {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    }
+
+.subtitulo_proyectos {
+    text-align: center;
+    font-size: 22 px;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom:40px;
+    }
+    
+.proyectos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 12 px;
+    color:black;
+    margin-bottom: 16 px;
+}
+.proyecto {
+    background-color: #EC9CD3;
+    padding: 16px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.proyecto p{
+    font-size: 8 px;
     color: black;
 }
 
-.li {
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 12px;
-    color: #1CC5DC;
+
+.imgproy {
+    width: 250 px;
+    height: 250 px;
 }
 
-.incisouno {
-   background-color: #B5DEFF;
-   clear:both;
-   padding: 100;
-   float: left;}
-
-.incisodos {
-    background-color: #CAB8FF;
-    clear:both
- }
- .incisotres {
-    background-color: #C1FFD7;
-    clear:both
- }
- .incisocuatro {
-    background-color: #FCFFA6;
-    clear:both
- }
-
- .galeria {
-    font-family: Verdana, Tahoma, sans-serif;
-    -webkit-text-stroke: 1px black;
-    color: #CAB8FF  ; 
-    font-weight: 900 ; 
-    font-size: 25px;
+/*Globo de contacto*/
+.contactosfijos {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    background-color:white;
+    border-radius: 30px;
+    padding: 16px;
 }
- 
-.nuestrahistoria {
-    font-family: Verdana, Tahoma, sans-serif;
-    -webkit-text-stroke: 1px black;
-    color:  #CAB8FF ; 
-    font-weight: 900 ; 
-    font-size: 25px;
+.wpfijo {
+    display: inline-block;
+    text-decoration: none;
+    z-index: 1000;
+}
+.fbfijo {
+    display: inline-block;
+    text-decoration: none;
+    z-index: 1000;
 }
 
-.galeria { 
-    width: 480px; 
-    padding: 100;
-    background: white ;}
+/*pie de página*/
+footer {
+    background-color: whitesmoke;
+    margin: 0%;
+    border: 0%;}
 
-.instagram { 
-    width: 100px; 
-    padding: 100;}
-    
-.facebook { 
-    width: 100px; 
-    padding: 100;}
-    
-.gmail { 
-    width: 100px; 
-    padding: 100;}
-    
-.whatsapp { 
-    width: 100px; 
-    padding: 100;}
-    
+.comunicate {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;   
+}
+.contactos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.intimidad {
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+}
+.intimidad h4 {
+    font-size: 15 px;
+    color:black;
+}
+
+.intimidad p {
+    font-size: 9 px;
+    font-style: italic;
+    color: black;
+}
+
+.tusderechos {
+    padding: 16px 16px;
+    display: flex;
+    align-items: center;
+} 
+
+.ubicacion {
+    text-align: center;
+}
 
 
 

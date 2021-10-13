@@ -8,68 +8,137 @@
 </head>
 <body> 
 <header>
-    <img src="imagenes/logomugica (1).png" alt="" class="logo" width="500px"> 
-    <nav> 
-        <h3> <a href="index.html"> Inicio </a> </h3> 
-        <h3> <a href="proyectos.html"> Proyectos </a> </h3>
-        <h3> <a href="aportes.html"> ¿Cómo puedo ayudar? </a> </h3>
-        <h3> <a href="contacto.html"> Contacto </a> </h3> </nav>
+    <div class="contenedor_nav">
+    <img src="imagenes/logomugica (1).png" alt="" class="logo"> 
+    <nav class="navegador">
+        <ul class="navegador_lista">
+        <li><a class= "nav_enlace" href="index.html"> Inicio </a> </li>
+        <li><a class= "nav_enlace" href="aportes.html"> ¿Cómo puedo ayudar? </a> </li>  
+        <li><a class= "nav_enlace" href="contacto.html"> Contacto </a> </li>
+        </ul> 
+    </nav>
+    </div>
 </header>
 <main>
-<div> <!--PRESENTACIÓN GENERAL EN INICIO-->
-<h2> Creamos colectivamente un espacio para promover los derechos
+<section class="presentacion"> <!--PRESENTACIÓN GENERAL EN INICIO-->
+    <div class="video"> <video  source src="imagenes/presentacion.mp4" autoplay loop type="video/mp4" alt="Presentación"> </div>
+    <div class="nosotrxs"> 
+        <h2 class="hacemos"> Creamos colectivamente un espacio para promover los derechos
      de los niños, niñas, niñes y adolescentes </h2> 
- 
-    <h3>Somos una ONG, sin fines de lucro, autogestiva, 
-     sostenida por la participación activa de la comunidad. </h3>
+        <h3 class="somos">Somos una ONG, sin fines de lucro, autogestiva, 
+     sostenida por la participación activa de la comunidad. </h3> </div>
+    <a class= botonayuda href="aportes.html"> ¿Cómo puedo aportar? </a>
+</section>
+
+
+
+<section class="historia"> <!--Historia breve y foto del inicio-->
+    <img class= "foto2014" src="imagenes/mugica2014.jpg" alt="Espacio Comunitario Carlos Múgica en el año 2014">
+    <h2 class="somos2"> ¿Quiénes somos?</h2>
+    <h4 class="brevehistoria"> 
+        El Espacio Comunitario Carlos Múgica fue creado en el año 2009, en el Barrio COMIPA, y desde sus inicios 
+        trabaja con la población del barrio para fortalecer el ejercicio de derechos mediante la participación
+        activa de la comunidad. La población se caracteriza por ser pluricultural y ampliamente diversa.
+       
+        Es una organización social que busca crear y fortalecer la ciudadanía de niños, niñas y adolescentes.
+        Abordando junto a ellxs, desde lo recreativo, distintos derechos como la: 
+        Salud, Educación, Identidad, Participación, Vivienda, Expresión, derecho a la Ciudad.
+    </h4>
+</section>
+
+
+<section class="nuestros_proyectos"> <!-- Detalle de proyectos-->
+    <h2 class="titulo_proyectos"> Soñamos, proyectamos, concretamos</h2>
+    <h3 class="subtitulo_proyectos">Nuestras actividades:</h3>
     
-     <h4>Generamos espacios de encuentros y participación, en el B° COMIPA-KM8. </h4> 
- 
-     <aside> 
-    <video width="480" poster="" controls> <source src="" type="video/mp4" alt="Presentación">
-    </aside>
-
+<div class="proyectos">
+    <div class="proyecto"> <!--SÁBADOS RECREATIVOS-->
+        <img src="imagenes/sabado1.jpg" alt="Actividad sábado" class="imgproy"> 
+        <h3 class="subtitulo"> Encuentros de sábado </h3>
+        <p> 
+            Los sábados nos encontramos para construir juntos nuevos mundos: los imaginamos, los coloreamos, los amasamos...
+            Otras veces debatimos sobre el mundo que habitamos para poder transformarlo y hacer de él un lugar mejor. 
+            Los sábados nos convertimos en un equipo y jugamos entre todxs, aprendemos lxs unxs de lxs otrxs. 
+            En todos los encuentros buscamos promover el derecho a participar de todxs lxs niñxs y adolescentes. </p>
+    </div>
+        
+    <div class="proyecto"> <!--APOYO ESCOLAR-->
+        <img src="imagenes/apoyo escolar1.jpg" alt="Apoyo escolar" class="imgproy"> 
+        <h3 class="subtitulo"> Apoyo escolar </h3>
+        <p> 
+            En la antigua Grecia, Arquímedes hablaba sobre las formas en que se transmite la fuerza. 
+            Decía que cualquier cosa puede moverse con la energía justa y una palanca puesta sobre un punto de apoyo. 
+            En el Múgica, pusimos la fuerza para hacer de las mañanas de los sábados nuevos puntos de apoyo escolar. 
+            En cada encuentro apuntalamos el derecho a una educación justa.
+        </p>   
+    </div>
+    
+    <div class="proyecto"> <!--BIBLIOTECA-->
+        <img src="imagenes/biblioteca2.jpg" alt="Biblio" class="imgproy"> 
+        <h3 class="subtitulo"> Biblioteca itinerante </h3>
+        <p> 
+        ti molestiae. Laboriosam dignissimos saepe pariatur fuga distinctio. 
+        Ullam deserunt voluptatum consequatur! Molestias nam provident consequatur recusandae officia 
+        Leyendo aprendemos sobre nosotrxs mismxs, sobre nuestras ideas y pensamientos.
+        ti molestiae. Laboriosam dignissimos saepe pariatur fuga distinctio. 
+        </p>
+    </div>
+    
+    <div class="proyecto"> <!--+CREANDO REDES-->
+        <img src="" alt="Compus" class="imgproy">
+        <h3 class="subtitulo"> Creando redes: Sala de computación </h3>
+        <p>  
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Minima iure asperiores ut obcaecati molestiae. atur recusandae officia!
+        ti molestiae. Laboriosam dignissimos saepe pariatur fuga distinctio. 
+        ti molestiae. Laboriosam dignissimos saepe pariatur fuga distinctio. 
+    </p>
+    </div>
 </div>
-<div>
-<h3>Conoce más sobre el espacio</h3>
-<a href="historia.html" class="nuestrahistoria">¿Quiénes somos? </a> </div>
+</section>
 
-<div> <a href="fotos.html" class="galeria" > Galería de fotos</a> </div>
+<section class="contactosfijos">
+    <a class="wpfijo" href="https://api.whatsapp.com/send?phone=+5492974136631&text=Hola%20Luciana!%20Te%20hablo%20para%20preguntarte%20algo%20referido%20al%20Espacio%20Comunitario%20Carlos%20M%C3%BAgica..." target="_blank" class="icon-whatsapp"><img src="redes sociales/005-whatsapp.png" width="25px" ></a>
+    <a class="fbfijo" href="https://www.facebook.com/esp.mugica/" target="_blank" class="icon-facebook"> <img src="redes sociales/036-facebook.png" width="25px"></a>
+</section>
 </main>
 
 <footer><!--CIERRE-->
-    <div> <!-- A REDES SOCIALES-->
-        <h3>Visita nuestras redes sociales</h3>
-        <div class="redes">
-        <a href="https://www.facebook.com/esp.mugica/" target="_blank" class="icon-facebook"> <img src="redes sociales/036-facebook.png" width="30px"></a>
-        <a href="  https://instagram.com/espaciocomunitariocarlosmugica?utm_medium=copy_link" Target="_blank" class="icon-instagram"><img src="redes sociales/029-instagram.png"width="30px"></a> 
-        <a href="mailto:esp.mugica@gmail.com" target="_blank" class="icon-mail"><img src="redes sociales/gmail.png"width="30px"></a>
-        <a href="https://wa.me/5492974136631" target="_blank" class="icon-whatsapp"><img src="redes sociales/005-whatsapp.png"width="30px"></a></div>
+<section class= "comunicate">
+    <div>
+        <h3>Comunicate por nuestros medios de contacto: </h3>
+        <div>
+        <ul class= "contactos">
+            <li> <a href="https://www.facebook.com/esp.mugica/" target="_blank" class="icon-facebook"> <img src="redes sociales/036-facebook.png" width="30px"></a></li>
+            <li> <a href="  https://instagram.com/espaciocomunitariocarlosmugica?utm_medium=copy_link" Target="_blank" class="icon-instagram"><img src="redes sociales/029-instagram.png"width="30px"></a></li> 
+            <li><a href="mailto:esp.mugica@gmail.com" target="_blank" class="icon-mail"><img src="redes sociales/gmail.png"width="30px"></a></li>
+            <li><a href="https://wa.me/5492974136631" target="_blank" class="icon-whatsapp"><img src="redes sociales/005-whatsapp.png"width="30px"></a></div></li>
+        </ul>
     </div>
-
-<div> <!--INFO DERECHO A LA INTIMIDAD-->
-    <h3> Derecho a la intimidad y a la protección de la propia imagén </h3>
+</section> 
+<aside class="info_derechos">
+    <div class="intimidad"> <!--INFO DERECHO A LA INTIMIDAD-->
+    <h4> Derecho a la intimidad y a la protección de la propia imagén </h4>
     <p> Las imágenes pertenecen al Espacio Comunitario Carlos Múgica. 
         Los niños, niñas, niñes y adolescentes que figuran en las mismas
         han autorizado su publicación para la promoción de las actividades. 
         Se prohibe su difusión o uso para acciones distintas a las antes mencionadas. </p>
     </div>
  <!--listado de derechos-->
-      <div><h3>Si tenes menos de 18 años, conoce tus derechos</h3>
+    <div class="tusderechos"><h4>Si tenes menos de 18 años, conoce tus derechos</h4>
         <ul>
-      
-            <li><a href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/derechos-de-ninos-ninas-y-adolescentes" Target="_blank"> Ley 26.061 de Protección Integral de los Derechos de Niñxs 
-            y Adolescentes </a> </li> 
+            <li><a href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/derechos-de-ninos-ninas-y-adolescentes" Target="_blank"> Ley 26.061 de Protección Integral </a> </li> 
        
             <li> <a href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/educacion-sexual" Target="_blank"> Ley 26.150 de Educación Sexual Integral </a> </li>
             
             <li> <a href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/centros-de-estudiantes" Target="_blank"> Ley 26.877 de Centros de Estudiantes </a> </li>
             
             <li> <a href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/capacidad-de-los-menores-de-edad" Target="_blank"> Autonomía progresiva </a> </li>
-       
         </ul>
-    </div>  
-    <p>Comodoro Rivadavia, Chubut </p>
+    </div> 
+</aside>
+ 
+    <p class="ubicacion">Comodoro Rivadavia, Chubut </p>
 </footer>
 </body>
 </html>
