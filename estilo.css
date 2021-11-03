@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FBF4E9;
+    background-color: white;
     margin: 0%;
     font-family: Verdana, Tahoma, sans-serif;
 }
@@ -73,15 +73,15 @@ header {
 }
 .hacemos{
     font-size: 28px;
-    color:#6ECB63;
+    color:black;
     margin: 32px;
-    text-shadow:  0 2px 3px rgba(0, 0, 0, 0.3);
+    text-shadow:  0 2px 3px grey(0, 0, 0, 0.3);
 }
 .somos {
     position: center;
     font-size: 25;
     margin: 32px;
-    color:#B1E693;
+    color:grey;
 }
 
 .video {
@@ -106,7 +106,7 @@ header {
 
 /*SECCIÓN 2*/
 .historia {
-    background-color:#B1E693;
+    background-color:#C1FFD7;
     margin-top: 20 px;
     margin-bottom: 20 px;
     display: inline-block;
@@ -129,9 +129,12 @@ header {
 
 .brevehistoria {
     position: center;
-    font-size: 25;
+    font-size: 22;
     margin: 32px;
-    color:black; 
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal; 
+
 }
 /*SECCIÓN 3*/
 .nuestros_proyectos {
@@ -161,21 +164,26 @@ header {
 }
 
 .subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 12 px;
+    font-size: 15px;
     color:black;
-    margin-bottom: 16 px;
+    margin-top: 5pt;
+    margin-bottom: 13pt;
 }
 .proyecto {
-    background-color: #EC9CD3;
+    background-color: #C1FFD7;
     padding: 16px;
     width: 100%;
     max-width: 300px;
 }
 
 .proyecto p{
-    font-size: 8 px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
     color: black;
+    margin: 4%;
+    text-align: justify;
 }
 
 
@@ -187,11 +195,13 @@ header {
 /*Globo de contacto*/
 .contactosfijos {
     position: fixed;
-    bottom: 32px;
-    right: 32px;
+    bottom: 92px;
+    right: 30px;
     background-color:white;
-    border-radius: 30px;
-    padding: 16px;
+    border-radius: 27px;
+    padding: 12px;
+    border-color: #6ECB63;
+    border-style:solid;
 }
 .wpfijo {
     display: inline-block;
@@ -206,48 +216,71 @@ header {
 
 /*pie de página*/
 footer {
-    background-color: whitesmoke;
+    background-color: #C1FFD7;
+    opacity: 90%;
     margin: 0%;
-    border: 0%;}
-
-.comunicate {
-    text-align: center;
-    max-width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;   
+    border: 0%;
 }
-.contactos {
-    display: flex;
+
+.footer {
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
-
-.intimidad {
-    padding: 30px 30px;
-    display: flex;
+.comunicate {
+    text-align: center;
+    display: inline-block;
+    align-items: center;  
+}
+.titfooter {
+    font-size: 11pt;
+    text-align: left;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.contactos {
+    display: inline-flex;
+    max-width: 45%;
+    justify-content: space-between 2pt;
     align-items: center;
+    margin: 2px;
+}
+.intimidad {
+    padding: 16px 16px;
+    display: inline-block;
+    align-items: center;
+    max-width: 30%;
 }
 .intimidad h4 {
-    font-size: 15 px;
+    font-size: 13px;
     color:black;
 }
 
 .intimidad p {
-    font-size: 9 px;
+    font-size: 11px;
     font-style: italic;
     color: black;
 }
 
 .tusderechos {
     padding: 16px 16px;
-    display: flex;
+    display: inline-block;
     align-items: center;
+    text-align: center;
 } 
+
+.derecho {
+    color: #6ECB63;
+    font-size: 11px;
+    text-align:center;
+}
 
 .ubicacion {
     text-align: center;
+    padding-bottom: 2%;
 }
 
 
