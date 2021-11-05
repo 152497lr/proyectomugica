@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #FBF4E9;
+    background: rgb(95, 215, 218);
+    background: linear-gradient(135deg, rgb(116, 214, 216) 23%, rgb(157, 197, 250) 100%);
     margin: 0%;
     font-family: Verdana, Tahoma, sans-serif;
 }
@@ -27,7 +28,7 @@ main{
 }
 
 .logo {
-width: 120px;
+width: 150px;
 padding: 10px;
 }
 
@@ -36,7 +37,7 @@ ul {
 }
 
 header {
-    background-color: #E8E8E8;
+    background-color:rgba(0, 0, 0, 0.925);;
     opacity: 92%;
     margin:0%;
     border: 0%;
@@ -62,7 +63,7 @@ header {
 }
 
 .nav_enlace {
-    color:black;
+    color:white;
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
@@ -116,10 +117,10 @@ header {
 
 .botonayuda {
     display: inline-block;
-    background-color:#E8E8E8;
+    background-color:black;
     border-color: black;
     text-decoration: none;
-    color: black;
+    color: white;
     padding-top: 10px;
     padding-bottom:10px; 
     padding-left: 20px;
@@ -129,7 +130,6 @@ header {
     margin-top: 20px;
     margin-bottom: 45px;
     margin-left: 75px;
-    text-shadow:  0 2px 3px rgba(0, 0, 0, 0.2);
     }
 
 .galeria{
@@ -236,7 +236,7 @@ header {
     height: 250 px;
 }
 
-/*Globo de contacto*/
+
 .tituloconsulta, .tituloayuda {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
@@ -273,10 +273,15 @@ header {
 
 /*pie de página*/
 footer {
-    background-color: #E8E8E8;
+    background-color:rgba(0, 0, 0, 0.822);
     opacity: 90%;
     margin: 0%;
     border: 0%;
+    max-width: 100%;
+    position: end ;
+}
+.piepag {
+    align-items: center;
 }
 
 .footer {
@@ -305,6 +310,7 @@ footer {
     text-align: left;
     width: 100%;
     max-width: 300px;
+    color: white;
 }
 .titfooter {
     font-size: 11pt;
@@ -314,12 +320,12 @@ footer {
 .intimidad p {
     font-size: 11px;
     font-style: italic;
-    color: black;
+    color: white;
     text-align: justify;
 }
 
 .derecho, .listaderechos {
-    color: black;
+    color: white;
     font-size: 11px;
     text-align:justify;
     margin-top: 10px;
@@ -328,7 +334,7 @@ footer {
 }
 
 .ubicacion {
-    color: black;
+    color: white;
     font-size: 11px;
     text-align: center;
     padding-bottom: 15px;
