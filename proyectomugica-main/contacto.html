@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title> Contacto|Espacio Múgica </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!--Agregar link de BOOTSTRAP-->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+    
+    
+
+<body> 
+<main>
+    <header>
+        <div class="contenedor_nav">
+        <img src="imagenes/logomugica (1).png" alt="" class="logo"> 
+        <nav class="navegador">
+            <ul class="navegador_lista">
+            <li><a class= "nav_enlace" href="index.html"> Inicio </a> </li>
+            <li><a class= "nav_enlace" href="aportes.html"> ¿Cómo puedo ayudar? </a> </li>  
+            <li><a class= "nav_enlace" href="contacto.html"> Contacto </a> </li>
+            </ul> 
+        </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+            <h1 class="tituloconsulta">Este espacio es para que dejes tus consultas</h1>
+            <h2 class="titulocontacto"> ¡Vamos a comunicarnos con vos a la brevedad! </h2>
+        </section>
+
+        <section class="formulario">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <form action="https://formspree.io/f/xayagogp" method="POST">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="_replyto">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label"> Número de teléfono</label>
+                                <input type="contact" class="form-control" id="exampleFormControlInput1" placeholder="XXX-XXXXXX" name="_replyto">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label"> Mensaje </label>
+                                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar </button>
+                          </form>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.9976264672673!2d-67.44430198522284!3d-45.79127527910621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde4f88e7425bf5f%3A0x7c375bc25618e0b6!2sEspacio%20comunitario%20%22Carlos%20Mujica%22!5e0!3m2!1ses!2sar!4v1635956270526!5m2!1ses!2sar" width="480" height="330" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section> 
+</main>
+<footer><!--CIERRE-->
+    <section class="footer">
+        <div class="widget-fb">
+            <div class="fb-page" data-href="https://www.facebook.com/esp.mugica" data-tabs="timeline" data-width="380" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/esp.mugica" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/esp.mugica">Espacio Comunitario &quot;Carlos Mugica&quot; - Comodoro Rivadavia</a></blockquote></div>
+        </div>
+            <div class="intimidad"> 
+                <h3 class="titfooter"> Derecho a la intimidad y a la protección de la propia imágen </h3>
+                <p> Las imágenes pertenecen al Espacio Comunitario Carlos Múgica. Las personas que figuran en las mismas han autorizado su publicación para la promoción de las actividades. Se prohibe su uso para acciones distintas a las antes mencionadas.</p>
+            </div>
+            <div class="tusderechos"> 
+                <h3 class="titfooter">Si tenes menos de 18 años, conoce tus derechos </h3>
+                <p>  
+                    <ul class="listaderechos">
+                        <li><a class="derecho" href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/derechos-de-ninos-ninas-y-adolescentes" Target="_blank"> Ley 26.061 de Protección Integral </a> </li> 
+               
+                        <li> <a class="derecho" href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/educacion-sexual" Target="_blank"> Ley 26.150 de Educación Sexual Integral </a> </li>
+                    
+                        <li> <a class="derecho" href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/centros-de-estudiantes" Target="_blank"> Ley 26.877 de Centros de Estudiantes </a> </li>
+                    
+                        <li> <a class="derecho" href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/capacidad-de-los-menores-de-edad" Target="_blank"> Autonomía progresiva </a> </li>
+                 </ul> 
+            </p>
+            </div>
+        </section>
+    </section>
+    <div class="ubicacion">Comodoro Rivadavia, Chubut </div>
+    </footer>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v12.0" nonce="foRWknux"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
