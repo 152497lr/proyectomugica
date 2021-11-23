@@ -14,8 +14,6 @@ body {
 main{
     margin-top: 8%;
     margin-bottom: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
     border: 10%;
 }
 
@@ -70,6 +68,9 @@ header {
     padding: 10px;
 }
 
+.nav_enlace:hover {
+    color:#FF5403;
+}
 .contenedor_cont {
     max-width: 200%;
     margin: 0 auto;
@@ -86,20 +87,23 @@ header {
 
 /*SECCIÓN 1*/
 
+.main-seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .carrusel {
-    float:left;
-    clear: both;
-    max-width: 45%;
-    width: 480px;
-    height: 480px;
+    width: 450px;
+    height: 450px;
     padding: 20px;
-    margin-left: 1%;
+    margin: 20px;
 }
 
 .contenido1 {
     width: 50%;
-    float: right;
-    margin-top: 8%;
+    padding: 20px;
+    margin: 20px;
 }
 
 .tituloinicio {
@@ -120,7 +124,6 @@ header {
 }
 
 .botonayuda {
-    display: inline-block;
     background-color:black;
     border-color: black;
     text-decoration: none;
@@ -131,62 +134,58 @@ header {
     padding-right: 20px;
     border-radius: 20px;
     font-weight: 900;
-    margin-top: 10px;
     margin-bottom: 45px;
-    margin-left: 75px;
     }
 
-.galeria{
-    max-width: 45%;
-    width: 480px;
-    height: 480px;}
+.botonayuda:hover{
+    color: #FF5403;
+}
 
 /*SECCIÓN 2*/
-.historia {
-    background-color:white;
-    opacity: 90%;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    display: inline-block;
-    justify-content: column;
-    clear:both;
-    padding: 15px;
-    max-width: 95%;
+.hist-section {
+    background-color: white;
+    width: 100%;
+    height: 30%;
     }
 
-.foto2016 {
-    margin: 20px;
-    float:right;
-    clear: both;
-    width: 520px;
-    height: 400px;
-    border-radius: 15%;
-    padding: 20px;
+.historia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: 5px 5px 5px 5px;
+    }
+
+.dibujo {
+    width: 550px;
+    margin-left: 10%;
 }
 
+.texto-historia {
+    margin-left: 8%;
+    max-width: 50%;
+    margin-top: 10%;
+}
 .somos2 {
-    position: center;
     font-size: 25;
-    margin: 32px;
     color:black;
     text-shadow:  0 2px 3px rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
 }
 
-.brevehistoria {
-    position: center;
+.parrafohistoria {
     font-size: 20;
-    margin: 22px;
     color:black;
     font-family:Arial, Helvetica, sans-serif;
     font-style: normal; 
-    max-width: 40%;
     text-align: justify;
 }
+
 /*SECCIÓN 3*/
 .nuestros_proyectos {
     padding: 40px 32px;
+    margin-left: 5%;
+    margin-right: 5%;
 }   
 
 .titulo_proyectos {
@@ -208,86 +207,103 @@ header {
     margin-bottom:40px;
     text-shadow:  0 1px 2px rgba(0, 0, 0, 0.2);
     }
-    
+
 .card-img-top {
-    width: 485px;
-    height: 485px;
+    width: 248px;
+    height: 150px;
 }
 
 .card-title {
     color: #FF5403;
     font-weight: bold;
+    font-size: 15px;
 }
 .card-text {
-    text-align: justify;
+    text-align:left;
+    font-size: 12px;
 }
 
-.tituloconsulta, .tituloayuda {
+.tituloconsulta, .tituloayuda{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-size: 35px;
     padding: 12px;
     color:#FF5403;
     font-weight: bold;
-    text-shadow:  0 1px 2px rgba(0, 0, 0, 0.2)
+    text-shadow:  0 1px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.subtituloayuda, .titulocontacto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    padding: 12px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.colaboracion {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .container {
     margin-top: 50px;
 }
 
+.formulario {
+    margin-bottom: 5%;
+}
 .mapa {
     margin-top: 15px;
+    margin-left: 25px;
 }
 
-.subtituloayuda {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    font-size: 25px;
-    padding: 12px;
-    margin-bottom: 30px;
-}
+img {
+    height: auto;
+    max-width: 100%;
+    }
 
 /*Globo de contacto*/
+
 .contactosfijos {
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.514);
     position: fixed;
-    bottom: 10px;
-    right: 20px;
+    bottom: 68%;
+    right: 10px;
     border-radius: 27px;
-    padding: 12px;
+    padding: 5px;
 }
+
 .wpfijo {
-    display: inline-block;
-    text-decoration: none;
     z-index: 1000;
+    padding: 5px;
 }
+
 .fbfijo {
-    display: inline-block;
-    text-decoration: none;
     z-index: 1000;
+    padding: 5px;
 }
 
 /*pie de página*/
-footer {
+.footer-general {
     background-color: white;
-    opacity: 90%;
-    margin: 0%;
-    border: 0%;
-    max-width: 100%;
-    position: end ;
+    opacity: 93%;
+}
+.footer-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .piepag {
     align-items: center;
-}
-
-.footer {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    text-align: center;
-    margin-left: 6%;
 }
 
 .widget-fb {
@@ -298,11 +314,8 @@ footer {
     }
 
 .intimidad, .tusderechos {
-    display: inline-block;
-    text-align: justify;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px;
+    padding: 10px;
+    margin-top: 10px;
     text-align: left;
     width: 100%;
     max-width: 300px;
@@ -311,6 +324,7 @@ footer {
 .titfooter {
     font-size: 11pt;
     text-align: left;
+    font-weight: bold;
 }
 
 .intimidad p {
@@ -321,7 +335,7 @@ footer {
 }
 
 .derecho, .listaderechos {
-    color: black;
+    color: #FF5403;
     font-size: 11px;
     text-align:justify;
     margin-top: 10px;
@@ -334,6 +348,5 @@ footer {
     font-size: 11px;
     text-align: center;
     padding-bottom: 15px;
+    font-weight: bold;
 }
-
- 
