@@ -12,23 +12,23 @@ body {
 }
 
 main{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
 }
 
+.relleno-header{
+    width: 100%;
+}
+
 .contenedor_nav {
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-
 .logo {
-    width: 150px;
-    padding: 3px;
-    margin-left: 3px;
-    margin-bottom: 5px;
+    max-width: 50%;
 }
 
 ul {
@@ -38,8 +38,6 @@ ul {
 header {
     background-color: white;
     opacity: 85%;
-    padding-top: 5px;
-    padding-bottom: 5px;
     width: 100%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -53,7 +51,7 @@ header {
 }
 .navegador_lista {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 5px;
     padding-bottom: 0px;
@@ -138,14 +136,13 @@ header {
 .historia {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 80%;
-    margin: 5px 5px 5px 5px;
+    align-items: center;
+    width: 100%;
     }
 
 .dibujo {
     width: 100%;
-    margin-left: 10%;
+    align-items: center;
 }
 
 .texto-historia {
@@ -217,7 +214,7 @@ header {
     color:#FF5403;
     font-weight: bold;
     text-shadow:  0 1px 2px rgba(0, 0, 0, 0.2);
-    margin-top: 12%;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -293,7 +290,7 @@ img {
 
 .widget-fb {
     margin: 20px;
-    margin-left: 45px;
+    margin-left: 40px;
     margin-right: 10px;
     }
 
@@ -328,6 +325,7 @@ img {
 }
 
 .ubicacion {
+    max-width: 100%;
     color: black;
     font-size: 11px;
     text-align: center;
@@ -338,57 +336,37 @@ img {
 @media (max-width: 768px){
 
     .header {
-        margin: 0%;
+        margin-top: 5%;
         }
 
-    .logo {
-        width: 20%;
-        padding: 0px;
-        margin:0%;
-        left: 0%;
-        }
-
-    .contenedor_nav {
-        margin: 0%;
-        max-width: 100%;
-        justify-content: space-evenly;
-    }
-    
     .nav_enlace {
         font-size: 12px;
         padding: 3px;
         margin: 0px;
     }
 
-    .navegador_lista {
-        display: flex;
-        flex-direction: column;
-        justify-content:space-between;
-        padding: 0px;
-    }
-    
     .main-seccion {
-        margin-top: 5%;
+        margin-top: 0%;
         margin-right: 0%;
         flex-direction: column-reverse;
         align-items: center;
     }
     .main-seccion .contenido1{   
         width: 90%;
-        padding: 4px;
-        margin: 3%;
+        padding: 3px;
+        margin: 0%;
         align-items: center;
     }
  
     .main-seccion .tituloinicio {
-        font-size: 190%;
+        font-size: 145%;
         text-align: left;
         max-width: 90%;
         margin: 5%;
     }
 
     .main-seccion .subtituloinicio {
-        font-size: 150%;
+        font-size: 100%;
         max-width: 80%;
         margin: 5%;
         text-align: left;
@@ -402,7 +380,10 @@ img {
     .main-seccion .carrusel {
         width: 100%;
         padding: 3px;
-        margin: 0%;
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 3%;
         position: center;
     }
 
@@ -415,7 +396,6 @@ img {
         font-weight: 900;
         font-size: 12px;
         margin: 5%;
-        margin-bottom: 60px;
     }
 
     .hist-section {
@@ -509,7 +489,6 @@ img {
     .intimidad {
         max-width: 100%;
         margin-left: 12px;
-        margin-right: 12px;
         margin-top: 2px;
         margin-bottom: 2px;
         padding: 0px;
@@ -518,7 +497,6 @@ img {
     .tusderechos {
         max-width: 100%;
         margin-left: 12px;
-        margin-right: 12px;
         margin-top: 2px;
         margin-bottom: 10px;
         padding: 0px;
@@ -546,3 +524,10 @@ img {
         width: 20px;
     }
 }
+
+@media (max-width: 767px) {
+    .relleno-header {
+        margin: 5%;
+    }
+    }
+    
