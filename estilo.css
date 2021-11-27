@@ -1,0 +1,553 @@
+* {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(187, 254, 255);
+    background: linear-gradient(135deg, #a4edee 23%, rgb(197, 222, 255) 100%);
+    margin: 0%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+main{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.relleno-header{
+    width: 100%;
+}
+
+.contenedor_nav {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    padding-top: 2%;
+    max-width: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: white;
+    opacity: 85%;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    }
+
+.navegador {
+    min-width: 50%;
+}
+.navegador_lista {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.nav_enlace {
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.nav_enlace:hover {
+    color:#FF5403;
+}
+
+
+/*SECCIÓN 1*/
+
+.main-seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.carrusel {
+    width: 450px;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 5px;
+}
+
+.contenido1 {
+    width: 50%;
+    padding: 18px;
+    margin: 15px;
+    margin-left: 5px;
+}
+
+.tituloinicio {
+    font-size: 35px;
+    color: #FF5403;
+    font-weight: bold;
+    margin-bottom: 32px;
+    text-align: left;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.subtituloinicio {
+    font-weight: 100;
+    margin-bottom: 32px; 
+    color: black;
+    max-width: 84%;
+}
+
+.botonayuda {
+    background-color:black;
+    border-color: black;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom:10px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-weight: 900;
+    margin-bottom: 45px;
+    }
+
+.botonayuda:hover{
+    color: #FF5403;
+}
+
+/*SECCIÓN 2*/
+.hist-section {
+    background-color: white;
+    width: 100%;
+    height: 30%;
+    }
+
+.historia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    }
+
+.dibujo {
+    width: 100%;
+    align-items: center;
+}
+
+.texto-historia {
+    margin-left: 8%;
+    max-width: 50%;
+    margin-top: 3%;
+}
+.somos2 {
+    font-size: 25;
+    color:black;
+    text-shadow:  0 2px 3px rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+}
+
+.parrafohistoria {
+    font-size: 20;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal; 
+    text-align: justify;
+}
+
+/*SECCIÓN 3*/
+.nuestros_proyectos {
+    padding: 40px 32px;
+    margin-left: 5%;
+    margin-right: 5%;
+}   
+
+.titulo_proyectos {
+    text-align: center;
+    font-size: 40px;
+    color: #FF5403;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-shadow:  0 2px 2px rgba(0, 0, 0, 0.2);
+    }
+
+.subtitulo_proyectos {
+    text-align: center;
+    font-size: 22 px;
+    color: #FF5403;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom:40px;
+    text-shadow:  0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+.card-img-top {
+    max-width: 100%;
+}
+
+.card-title {
+    color: #FF5403;
+    font-weight: bold;
+    font-size: 15px;
+}
+.card-text {
+    text-align:left;
+    font-size: 12px;
+}
+
+.tituloconsulta, .tituloayuda{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 35px;
+    padding: 12px;
+    color:#FF5403;
+    font-weight: bold;
+    text-shadow:  0 1px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.subtituloayuda, .titulocontacto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    padding: 12px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.colaboracion {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.formulario {
+    margin-bottom: 5%;
+}
+.mapa {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    }
+
+/*Globo de contacto*/
+
+.contactosfijos {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.514);
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 32px;
+    right: 40px;
+    z-index: 1000;
+}
+
+.wpfijo {
+    z-index: 1000;
+    padding: 5px;
+}
+
+/*pie de página*/
+.footer-general {
+    background-color: white;
+    opacity: 93%;
+}
+.footer-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.piepag {
+    align-items: center;
+}
+
+.widget-fb {
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    }
+
+.intimidad, .tusderechos {
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+    color: black;
+}
+.titfooter {
+    font-size: 11pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+.intimidad p {
+    font-size: 11px;
+    font-style: italic;
+    color: black;
+    text-align: justify;
+}
+
+.derecho, .listaderechos {
+    color: #FF5403;
+    font-size: 11px;
+    text-align:justify;
+    margin-top: 10px;
+    margin-left: -15px;
+    line-height: 21px;
+}
+
+.ubicacion {
+    max-width: 100%;
+    color: black;
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
+
+    .header {
+        margin-top: 5%;
+        }
+
+    .nav_enlace {
+        font-size: 12px;
+        padding: 3px;
+        margin: 0px;
+    }
+
+    .main-seccion {
+        margin-top: 0%;
+        margin-right: 0%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .main-seccion .contenido1{   
+        width: 90%;
+        padding: 3px;
+        margin: 0%;
+        align-items: center;
+    }
+ 
+    .main-seccion .tituloinicio {
+        font-size: 145%;
+        text-align: left;
+        max-width: 90%;
+        margin: 5%;
+    }
+
+    .main-seccion .subtituloinicio {
+        font-size: 100%;
+        max-width: 80%;
+        margin: 5%;
+        text-align: left;
+    }
+
+    .main-seccion .contenedor {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .main-seccion .carrusel {
+        width: 100%;
+        padding: 3px;
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 3%;
+        position: center;
+    }
+
+    .main-seccion .botonayuda {
+        padding-top:5px;
+        padding-bottom:8px; 
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px;
+        font-weight: 900;
+        font-size: 12px;
+        margin: 5%;
+    }
+
+    .hist-section {
+        max-width: 100%;
+        margin: 0%;
+        padding: 3%;
+    }
+
+    .hist-section .historia {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+    }
+    
+    .hist-section .texto-historia {
+        max-width: 100%;
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .hist-section .somos2 {
+        text-align: center;
+        padding-bottom: 5px;
+        margin-top: 10px;
+    }    
+        
+    .hist-section .parrafohistoria { 
+        text-align: center;
+        max-width: 100%;
+        }    
+    
+    .hist-section .foto-historia {
+        max-width: 100%;
+    }
+
+    .hist-section .dibujo {
+        margin: 0%;
+        max-width: 100%;
+        align-items: center;
+        padding: 0%;
+    }
+    
+    .nuestros_proyectos .titulo_proyectos {
+        text-align: center;
+        font-size: 28px;
+        max-width: 100%;
+        }
+
+    .nuestros_proyectos .subtitulo_proyectos {
+        max-width: 100%;
+        text-align: center;
+        }
+
+    .footer-padre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .formulario{
+        max-width: 100%;
+        align-items: center;
+        margin: 5%;
+    }
+
+    .tituloconsulta, .tituloayuda{
+        font-size: 145%;
+        margin-top: 4%;
+    }
+
+    .subtituloayuda, .titulocontacto {
+        font-size: 100%;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        padding-top: 1%;
+        }
+
+    .container {
+        margin: 0%;
+    }
+
+    .mapa {
+        margin: 0%;
+        margin-top: 3%;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .titfooter{
+        max-width: 90%;
+    }
+
+    .widget-fb{
+        width: 100;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        padding: 0px;
+    }
+    .intimidad {
+        max-width: 100%;
+        margin-left: 12px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding: 0px;
+    }
+      
+    .tusderechos {
+        max-width: 100%;
+        margin-left: 12px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .parrafo-intim {
+        max-width: 90%;
+    }
+    
+    .wpfijo {
+        z-index: 1000;
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        width: 20px;
+    }
+    
+    .fbfijo {
+        z-index: 1000;
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        width: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .relleno-header {
+        margin: 8%;
+    }
+    .tituloconsulta, .tituloayuda{
+        margin-top: 10%;
+    }
+    }
+@media (width: 768px) {
+    .row-cols-md-4>* {
+        width: 100%;
+    }
+}
