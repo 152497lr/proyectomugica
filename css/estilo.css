@@ -12,9 +12,8 @@ body {
 }
 
 main{
-    margin-top: 8%;
-    margin-bottom: 30px;
-    border: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .contenedor_nav {
@@ -27,7 +26,8 @@ main{
 
 .logo {
     width: 150px;
-    padding: 5px;
+    padding: 3px;
+    margin-left: 3px;
     margin-bottom: 5px;
 }
 
@@ -38,8 +38,8 @@ ul {
 header {
     background-color: white;
     opacity: 85%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -50,7 +50,6 @@ header {
 
 .navegador {
     min-width: 50%;
-    display: block;
 }
 .navegador_lista {
     display: flex;
@@ -140,7 +139,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 90%;
+    width: 80%;
     margin: 5px 5px 5px 5px;
     }
 
@@ -152,7 +151,7 @@ header {
 .texto-historia {
     margin-left: 8%;
     max-width: 50%;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 .somos2 {
     font-size: 25;
@@ -337,38 +336,42 @@ img {
 }
 
 @media (max-width: 768px){
-    .contenedor_nav {
-        display: flex;
-        flex-direction: column;
-        align-items: right
-    }
 
     .header {
-        margin: 10%;
+        margin: 0%;
         }
 
     .logo {
-        width: 30%;
+        width: 20%;
         padding: 0px;
-        margin-bottom: 3px;
+        margin:0%;
+        left: 0%;
         }
 
+    .contenedor_nav {
+        margin: 0%;
+        max-width: 100%;
+        justify-content: space-evenly;
+    }
+    
     .nav_enlace {
         font-size: 12px;
-        padding: 4px;
+        padding: 3px;
         margin: 0px;
     }
 
     .navegador_lista {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        justify-content:space-between;
         padding: 0px;
     }
     
     .main-seccion {
+        margin-top: 5%;
+        margin-right: 0%;
         flex-direction: column-reverse;
+        align-items: center;
     }
     .main-seccion .contenido1{   
         width: 90%;
@@ -378,23 +381,28 @@ img {
     }
  
     .main-seccion .tituloinicio {
-        font-size: 20px;
+        font-size: 190%;
         text-align: left;
         max-width: 90%;
         margin: 5%;
     }
 
     .main-seccion .subtituloinicio {
-        font-size: 12px;
+        font-size: 150%;
         max-width: 80%;
         margin: 5%;
         text-align: left;
     }
 
+    .main-seccion .contenedor {
+        width: 100%;
+        margin: 0%;
+    }
+
     .main-seccion .carrusel {
-        width: 90%;
+        width: 100%;
         padding: 3px;
-        margin: 5%;
+        margin: 0%;
         position: center;
     }
 
@@ -413,17 +421,21 @@ img {
     .hist-section {
         max-width: 100%;
         margin: 0%;
+        padding: 3%;
     }
 
     .hist-section .historia {
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin: 0%;
     }
     
     .hist-section .texto-historia {
-        max-width: 70%;
+        max-width: 100%;
         margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     .hist-section .somos2 {
@@ -434,11 +446,16 @@ img {
         
     .hist-section .parrafohistoria { 
         text-align: center;
+        max-width: 100%;
         }    
+    
+    .hist-section .foto-historia {
+        max-width: 100%;
+    }
 
     .hist-section .dibujo {
         margin: 0%;
-        max-width: 70%;
+        max-width: 100%;
         align-items: center;
         padding: 0%;
     }
@@ -458,6 +475,23 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .formulario{
+        max-width: 100%;
+        align-items: center;
+        margin: 5%;
+    }
+
+    .container {
+        margin: 0%;
+    }
+
+    .mapa {
+        margin: 0%;
+        margin-top: 3%;
+        max-width: 100%;
+        align-items: center;
     }
 
     .titfooter{
